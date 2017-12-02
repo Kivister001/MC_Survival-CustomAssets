@@ -71,21 +71,25 @@
                 },
                 {
                     "condition": "random_chance_with_looting",
-                    "chance": 0.000009,
+                    "chance": 0.00005,
                     "looting_multiplier": 0.0
                 }
             ],
             "rolls": 1,
             "entries": [
                 {
+                    "type": "empty",
+                    "weight": 499
+                },
+                {
                     "type": "item",
                     "name": "minecraft:spawn_egg",
                     "weight": 1,
                     "functions": [
-                        {
-                            "function": "set_data",
-                            "data": 96
-                        }
+                    {
+                        "function": "set_nbt",
+                        "tag": "{EntityTag:{id:mushroom_cow}}"
+                    }
                     ]
                 }
             ]
