@@ -67,7 +67,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:skull",
+                    "name": "minecraft:wither_skeleton_skull",
                     "weight": 1,
                     "functions": [
                         {
