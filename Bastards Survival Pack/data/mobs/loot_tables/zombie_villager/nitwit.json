@@ -1,0 +1,34 @@
+{
+    "pools": [
+		{
+		"conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.025,
+                    "looting_multiplier": 0.01
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+						{
+							"function": "set_name",
+							"name" : "Zombie Nitwit Head"
+						},
+						{
+                            "function": "set_nbt",
+                            "tag": "{SkullOwner:{Id:\"bcaf2b85-d421-47cc-a40a-455e77bfb60b\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdlODM4Y2NjMjY3NzZhMjE3YzY3ODM4NmY2YTY1NzkxZmU4Y2RhYjhjZTljYTRhYzZiMjgzOTdhNGQ4MWMyMiJ9fX0=\"}]}}}"
+                        }
+                    ]
+                }
+			]
+		}
+    ]
+}
