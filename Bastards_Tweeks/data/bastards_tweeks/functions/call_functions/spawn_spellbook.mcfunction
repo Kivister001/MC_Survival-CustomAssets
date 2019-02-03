@@ -1,0 +1,5 @@
+#spawn spellbook trigger function
+#tellraw @p[level=5..,scores={spawn_spellbook=1..}] ["",{"text":"Spell Requires","color":"dark_aqua"},{"text":" "},{"text":"10","color":"yellow"},{"text":" "},{"text":"Levels","color":"dark_aqua"}]
+give @a[scores={spawn_spellbook=1..}] written_book{pages:["[\"\",{\"text\":\"LugorGaming Spell Book\\n\\nSky Walk:\\n  \"},{\"text\":\"Cast Fly\",\"color\":\"dark_blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute run scoreboard players set @p flyer 1\"}},{\"text\":\"\\n  \",\"color\":\"reset\"},{\"text\":\"Disspell Fly\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute run scoreboard players set @p flyer 0\"}},{\"text\":\"\\n\\nSummon Beast:\\n   Wolf\",\"color\":\"reset\"}]"],title:Book,author:Kivister}
+scoreboard players set @a[scores={spawn_spellbook=1..}] spawn_spellbook 0
+scoreboard players enable @a spawn_spellbook
