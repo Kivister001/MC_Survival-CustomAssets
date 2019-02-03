@@ -8,6 +8,8 @@ scoreboard players enable @a spawn_mooshroom
 scoreboard players enable @a spawn_ocelot
 scoreboard players enable @a spawn_parrot
 scoreboard players enable @a spawn_pig
+scoreboard players enable @a spawn_sheep
+scoreboard players enable @a spawn_rabbit
 scoreboard players enable @a spawn_villager
 scoreboard players enable @a spawn_llama
 scoreboard players enable @a spawn_wolf
