@@ -15,6 +15,8 @@ scoreboard objectives add spawn_mooshroom trigger ["",{"text":"Summoning: ","col
 scoreboard objectives add spawn_ocelot trigger ["",{"text":"Summoning: ","color":"dark_aqua"},{"text":"Ocelot","color":"green"}]
 scoreboard objectives add spawn_parrot trigger ["",{"text":"Summoning: ","color":"dark_aqua"},{"text":"Parrot","color":"green"}]
 scoreboard objectives add spawn_pig trigger ["",{"text":"Summoning: ","color":"dark_aqua"},{"text":"Pig","color":"green"}]
+scoreboard objectives add spawn_sheep trigger ["",{"text":"Summoning: ","color":"dark_aqua"},{"text":"Sheep","color":"green"}]
+scoreboard objectives add spawn_rabbit trigger ["",{"text":"Summoning: ","color":"dark_aqua"},{"text":"Rabbit","color":"green"}]
 #spawn Villagers
 scoreboard objectives add spawn_villager trigger ["",{"text":"Summoning: ","color":"dark_aqua"},{"text":"Random Villager","color":"green"}]
 #spawn neutral mobs

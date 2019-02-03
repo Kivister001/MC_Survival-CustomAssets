@@ -11,6 +11,8 @@ execute if entity @a[scores={spawn_mooshroom=1..}] run function bastards_tweeks:
 execute if entity @a[scores={spawn_ocelot=1..}] run function bastards_tweeks:call_functions/spawn_ocelot
 execute if entity @a[scores={spawn_parrot=1..}] run function bastards_tweeks:call_functions/spawn_parrot
 execute if entity @a[scores={spawn_pig=1..}] run function bastards_tweeks:call_functions/spawn_pig
+execute if entity @a[scores={spawn_sheep=1..}] run function bastards_tweeks:call_functions/spawn_sheep
+execute if entity @a[scores={spawn_rabbit=1..}] run function bastards_tweeks:call_functions/spawn_rabbit
 #spawn Villagers
 execute if entity @a[scores={spawn_villager=1..}] run function bastards_tweeks:call_functions/spawn_villager
 #spawn neutral mobs
