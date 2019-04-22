@@ -1,0 +1,1 @@
+execute if entity @p[scores={flyer=1}] positioned as @p[scores={flyer=1}] run setblock ~ ~-2 ~ minecraft:glass keep
