@@ -23,3 +23,7 @@ execute if entity @a[scores={spawn_polar_bear=1..}] run function bastards_tweeks
 execute if entity @a[scores={spawn_z_horse=1..}] run function bastards_tweeks:call_functions/spawn_z_horse
 #Spawn Spellbook
 execute if entity @a[scores={spawn_spellbook=1..}] run function bastards_tweeks:call_functions/spawn_spellbook
+#Cast Spells
+execute if entity @a[scores={cast_skywalk=1..}] run function bastards_tweeks:call_functions/cast_skywalk
+execute if entity @a[scores={cast_rem_skywalk=1..}] run function bastards_tweeks:call_functions/cast_rem_skywalk
+execute if entity @a[scores={cast_safetyblock=1..}] run function bastards_tweeks:call_functions/cast_safetyblock

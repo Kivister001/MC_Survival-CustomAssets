@@ -1,1 +1,0 @@
-execute run scoreboard players set @p flyer 0
