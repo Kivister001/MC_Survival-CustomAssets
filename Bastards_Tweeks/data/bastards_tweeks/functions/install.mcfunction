@@ -34,4 +34,5 @@ scoreboard objectives add cast_skywalk trigger ["",{"text":"Casting: ","color":"
 scoreboard objectives add cast_rem_skywalk trigger ["",{"text":"Disspelling: ","color":"dark_aqua"},{"text":"Sky Walk","color":"green"}]
 scoreboard objectives add cast_safetyblock trigger ["",{"text":"Casting: ","color":"dark_aqua"},{"text":"Spawn Safety Block","color":"green"}]
 
+function bastards_tweeks:required/new
 tellraw @a ["",{"text":"Bastards Survival Pack","color":"dark_green"},{"text":" "},{"text":"Installed!","color":"yellow"}]
