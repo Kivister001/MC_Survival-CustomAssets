@@ -6,7 +6,7 @@ written_book{
                 {\"text\":\"\\n  \",\"color\":\"reset\"},
             {\"text\":\"Cast Safety Block\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_safetyblock\"}},
                 {\"text\":\"\\n  \",\"color\":\"reset\"},
-            {\"text\":\"Disspell Fly\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_disspell_skywalk\"}},
+            {\"text\":\"Disspell Fly\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_rem_skywalk\"}},
             
             {\"text\":\"\\n\\nSummon Beast:\\n   \",\"color\":\"reset\"},
             {\"text\":\"Chicken\",\"color\":\"dark_aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger spawn_chicken\"}},
