@@ -27,3 +27,5 @@ execute if entity @a[scores={spawn_spellbook=1..}] run function bastards_tweeks:
 execute if entity @a[scores={cast_skywalk=1..}] run function bastards_tweeks:spellbook/flight_magic/cast_skywalk
 execute if entity @a[scores={cast_rem_skywalk=1..}] run function bastards_tweeks:spellbook/flight_magic/cast_rem_skywalk
 execute if entity @a[scores={cast_safetyblock=1..}] run function bastards_tweeks:spellbook/flight_magic/cast_safetyblock
+#Advanced magic
+execute if entity @a[scores={break_bedrock=1..}] run function bastards_tweeks:spellbook/advanced_magic/break_bedrock
