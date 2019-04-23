@@ -19,3 +19,4 @@ scoreboard players enable @a spawn_spellbook
 scoreboard players enable @a cast_skywalk
 scoreboard players enable @a cast_safetyblock
 scoreboard players enable @a cast_rem_skywalk
+scoreboard players enable @a break_bedrock

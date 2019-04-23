@@ -29,10 +29,13 @@ scoreboard objectives add spawn_z_horse trigger ["",{"text":"Summoning: ","color
 #Spawn Spellbook
 scoreboard objectives add spawn_spellbook trigger ["",{"text":"Summoning: ","color":"dark_aqua"},{"text":"Spellbook","color":"green"}]
 
-#Cast Magic
+#Cast Flight Magic
 scoreboard objectives add cast_skywalk trigger ["",{"text":"Casting: ","color":"dark_aqua"},{"text":"Sky Walk","color":"green"}]
 scoreboard objectives add cast_rem_skywalk trigger ["",{"text":"Disspelling: ","color":"dark_aqua"},{"text":"Sky Walk","color":"green"}]
 scoreboard objectives add cast_safetyblock trigger ["",{"text":"Casting: ","color":"dark_aqua"},{"text":"Spawn Safety Block","color":"green"}]
+
+#Cast Advanced Magic
+scoreboard objectives add break_bedrock trigger ["",{"text":"Casting: ","color":"dark_aqua"},{"text":"Break Bedrock","color":"green"}]
 
 function bastards_tweeks:required/new
 tellraw @a ["",{"text":"Bastards Survival Pack","color":"dark_green"},{"text":" "},{"text":"Installed!","color":"yellow"}]
