@@ -29,7 +29,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:witch_spawn_egg",
-                    "weight": 0.5
+                    "weight": 1
                 }
             ]
         }
