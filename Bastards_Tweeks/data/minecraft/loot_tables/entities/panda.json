@@ -6,10 +6,11 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/panda"
+          "name": "minecraft:entities/reference/mmh/panda"
         }
       ]
     },
+    
     {
       "conditions": [
           {

@@ -6,10 +6,11 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/pillager"
+          "name": "minecraft:entities/reference/mmh/pillager"
         }
       ]
     },
+    
     {
       "conditions": [
           {

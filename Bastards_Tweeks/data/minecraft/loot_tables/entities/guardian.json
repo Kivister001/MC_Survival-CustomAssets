@@ -1,26 +1,15 @@
 {
     "pools": [
         {
-            "conditions": [
-                {
-                    "condition": "killed_by_player"
-                },
-                {
-                    "condition": "random_chance_with_looting",
-                    "chance": 0.025,
-                    "looting_multiplier": 0.01
-                }
-            ],
             "rolls": 1,
             "entries": [
-                {
-                    "type": "loot_table",
-                    "name": "minecraft:gameplay/fishing/fish",
-                    "weight": 1
-                }
+              {
+                "type": "minecraft:loot_table",
+                "name": "minecraft:entities/reference/mmh/guardian"
+              }
             ]
-        },
-        {
+          },
+          {
             "conditions": [
                 {
                     "condition": "killed_by_player"

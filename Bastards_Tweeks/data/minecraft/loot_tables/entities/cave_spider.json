@@ -3,6 +3,15 @@
         {
             "rolls": 1,
             "entries": [
+              {
+                "type": "minecraft:loot_table",
+                "name": "minecraft:entities/reference/mmh/cave_spider"
+              }
+            ]
+          },
+          {
+            "rolls": 1,
+            "entries": [
                 {
                     "type": "empty",
                     "weight": 99
