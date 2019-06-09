@@ -1,0 +1,2 @@
+#Give starter kit
+scoreboard objectives add give_starterkit trigger ["",{"text":"Welcome to the ","color":"dark_aqua"},{"text":"Bastards Survival ","color":"green"},{"text":"server!","color":"dark_aqua"}]
