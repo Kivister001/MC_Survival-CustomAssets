@@ -1,4 +1,6 @@
-#set new players to 
+#give new players a starter kit
+execute if entity @a[scores={new=0}] run function bastards_tweeks:care_packages/kits/starter_kit
+#set new players to
 scoreboard players set @a[scores={new=0}] new 1
 #spellbook functions
 scoreboard players enable @a spawn_chicken
