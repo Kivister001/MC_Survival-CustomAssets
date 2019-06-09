@@ -25,3 +25,4 @@ scoreboard players enable @a cast_rem_skywalk
 scoreboard players enable @a break_bedrock
 #care package functions
 scoreboard players enable @a give_starterkit
+scoreboard players enable @a give_rulebook
