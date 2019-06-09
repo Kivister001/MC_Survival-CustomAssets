@@ -1,5 +1,5 @@
 #spawn_sheep trigger function
-tellraw @p[level=10..,scores={spawn_sheep=1..}] ["",{"text":"Spell Requires","color":"dark_aqua"},{"text":" "},{"text":"10","color":"yellow"},{"text":" "},{"text":"Levels","color":"dark_aqua"}]
+tellraw @p[scores={spawn_sheep=1..}] ["",{"text":"Spell Requires","color":"dark_aqua"},{"text":" "},{"text":"10","color":"yellow"},{"text":" "},{"text":"Levels","color":"dark_aqua"}]
 execute at @a[level=10..] run summon minecraft:sheep ~ ~ ~
 execute run xp add @a[level=10..] -10 levels
 

@@ -1,5 +1,5 @@
 #spawn_pig trigger function
-tellraw @p[level=7..,scores={spawn_pig=1..}] ["",{"text":"Spell Requires","color":"dark_aqua"},{"text":" "},{"text":"7","color":"yellow"},{"text":" "},{"text":"Levels","color":"dark_aqua"}]
+tellraw @p[scores={spawn_pig=1..}] ["",{"text":"Spell Requires","color":"dark_aqua"},{"text":" "},{"text":"7","color":"yellow"},{"text":" "},{"text":"Levels","color":"dark_aqua"}]
 execute at @a[level=7..] run summon minecraft:pig ~ ~ ~
 execute run xp add @a[level=7..] -7 levels
 
