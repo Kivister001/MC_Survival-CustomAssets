@@ -1,5 +1,6 @@
 #set new players to 
 scoreboard players set @a[scores={new=0}] new 1
+#spellbook functions
 scoreboard players enable @a spawn_chicken
 scoreboard players enable @a spawn_cow
 scoreboard players enable @a spawn_donkey
@@ -20,3 +21,5 @@ scoreboard players enable @a cast_skywalk
 scoreboard players enable @a cast_safetyblock
 scoreboard players enable @a cast_rem_skywalk
 scoreboard players enable @a break_bedrock
+#care package functions
+scoreboard players enable @a give_starterkit
