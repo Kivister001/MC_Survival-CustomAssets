@@ -1,5 +1,5 @@
 #spawn_parrot trigger function
-tellraw @p[scores={spawn_parrot=1..}] ["",{"text":"Spell Requires","color":"dark_aqua"},{"text":" "},{"text":"8","color":"yellow"},{"text":" "},{"text":"Levels","color":"dark_aqua"}]
+tellraw @p[scores={spawn_parrot=1..}] ["",{"text":"Spawn Parrot Spell Requires","color":"dark_aqua"},{"text":" "},{"text":"8","color":"yellow"},{"text":" "},{"text":"Levels","color":"dark_aqua"}]
 execute at @a[level=8..] run summon minecraft:parrot ~ ~ ~
 execute run xp add @a[level=8..] -8 levels
 

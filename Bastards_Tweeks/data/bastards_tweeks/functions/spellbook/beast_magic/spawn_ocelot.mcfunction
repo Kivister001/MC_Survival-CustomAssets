@@ -1,5 +1,5 @@
 #spawn_ocelot trigger function
-tellraw @p[scores={spawn_ocelot=1..}] ["",{"text":"Spell Requires","color":"dark_aqua"},{"text":" "},{"text":"15","color":"yellow"},{"text":" "},{"text":"Levels","color":"dark_aqua"}]
+tellraw @p[scores={spawn_ocelot=1..}] ["",{"text":"Spawn Ocelot Spell Requires","color":"dark_aqua"},{"text":" "},{"text":"15","color":"yellow"},{"text":" "},{"text":"Levels","color":"dark_aqua"}]
 execute at @a[level=15..] run summon minecraft:ocelot ~ ~ ~
 execute run xp add @a[level=15..] -15 levels
 
